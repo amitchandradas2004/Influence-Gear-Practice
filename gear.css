@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+}
+/* Navbar section */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding-top: 25px;
+  align-items: center;
+}
+.nav-title {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.nav-group {
+  display: flex;
+  justify-items: center;
+  gap: 35px;
+  color: #3a3a3a;
+}
+/* Header section */
+.header-section {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+  /* max-width: 780px; */
+}
+.description {
+  max-width: 580px;
+  height: 280px;
+  align-content: center;
+  padding-left: 15px;
+  gap: 15px;
+}
+.btn-primary {
+  border-radius: 40px;
+  background-color: #e02c6d;
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+  max-width: 196px;
+  margin-top: 16px;
+  justify-content: center;
+}
+.camera {
+  border: 1px solid darkblue;
+  width: 440px;
+  height: 415px;
+}
