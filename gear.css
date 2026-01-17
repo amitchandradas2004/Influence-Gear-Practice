@@ -37,14 +37,20 @@
   gap: 15px;
 }
 .btn-primary {
+  border: 1px solid  #e02c6d;
   border-radius: 40px;
   background-color: #e02c6d;
   color: white;
   font-size: 16px;
-  padding: 8px;
+  /* padding: 8px; */
   max-width: 196px;
   margin-top: 16px;
   justify-content: center;
+  width: 120px;
+  height: 25px;
+}
+.btn-primary:hover{
+  background-color: rgb(97, 52, 245);
 }
 .camera {
   width: 440px;
@@ -144,4 +150,7 @@ background-color: rgb(242, 206, 206);
   border: 1px solid #E02C6D ;
   width: 100px;
   height: 20px;
+}
+.btn-secondary:hover{
+  background-color: rgb(97, 52, 245);
 }
