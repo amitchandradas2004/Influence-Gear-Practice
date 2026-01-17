@@ -37,7 +37,7 @@
   gap: 15px;
 }
 .btn-primary {
-  border: 1px solid  #e02c6d;
+  border: 1px solid #e02c6d;
   border-radius: 40px;
   background-color: #e02c6d;
   color: white;
@@ -49,7 +49,7 @@
   width: 120px;
   height: 25px;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: rgb(97, 52, 245);
 }
 .camera {
@@ -105,12 +105,12 @@
   width: 230px;
   border-radius: 10px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);
   border: 1px solid darkblue;
   padding-bottom: 10px;
 }
-.card-1:hover{
-background-color: rgb(242, 206, 206);
+.card-1:hover {
+  background-color: rgb(242, 206, 206);
 }
 .card-1 img {
   width: 90%;
@@ -119,38 +119,54 @@ background-color: rgb(242, 206, 206);
   margin-bottom: 10px;
   margin-left: 14px;
 }
-.btn-card{
+.btn-card {
   display: flex;
   justify-content: flex-end;
   font-size: 16px;
   font-weight: bold;
-  color: #E02C6D;
+  color: #e02c6d;
   margin: 15px 35px;
   align-items: center;
   gap: 5px;
 }
-.btn-img{
-  color: #E02C6D;
+.btn-img {
+  color: #e02c6d;
 }
 /* Featured */
-.Featured{
+.Featured {
   max-width: 1110px;
   display: flex;
   margin: 100px 20px;
   gap: 90px;
 }
-.Featured-products{
+.Featured-products {
   max-width: 610px;
   align-items: center;
 }
-.btn-secondary{
-  background-color: #E02C6D;
+.btn-secondary {
+  background-color: #e02c6d;
   font-size: 12px;
-  color: #FFFFFF;
-  border: 1px solid #E02C6D ;
+  color: #ffffff;
+  border: 1px solid #e02c6d;
   width: 100px;
   height: 20px;
 }
-.btn-secondary:hover{
+.btn-secondary:hover {
   background-color: rgb(97, 52, 245);
 }
+/* Footer section */
+.footer {
+  background: rgba(10, 8, 38, 1);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.icons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 15px;
+}
+
