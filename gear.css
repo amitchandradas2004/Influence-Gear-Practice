@@ -113,3 +113,35 @@ background-color: rgb(242, 206, 206);
   margin-bottom: 10px;
   margin-left: 14px;
 }
+.btn-card{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: bold;
+  color: #E02C6D;
+  margin: 15px 35px;
+  align-items: center;
+  gap: 5px;
+}
+.btn-img{
+  color: #E02C6D;
+}
+/* Featured */
+.Featured{
+  max-width: 1110px;
+  display: flex;
+  margin: 100px 20px;
+  gap: 90px;
+}
+.Featured-products{
+  max-width: 610px;
+  align-items: center;
+}
+.btn-secondary{
+  background-color: #E02C6D;
+  font-size: 12px;
+  color: #FFFFFF;
+  border: 1px solid #E02C6D ;
+  width: 100px;
+  height: 20px;
+}
